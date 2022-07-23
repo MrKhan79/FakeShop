@@ -173,9 +173,11 @@ useEffect(()=>{
          <Button>ADD TO CART</Button>
       </Buttons>
       <Buttons>
+        <NavLink to='/'>
         <Btn>
         <ArrowBackIcon /> Back to home
         </Btn>
+        </NavLink>
       </Buttons>
       </Right>
     </Container>
